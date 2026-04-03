@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Group = require('../models/Group');
+const Group = require('../models/group');
 const auth = require('../middleware/auth');
 
 // Get all groups
